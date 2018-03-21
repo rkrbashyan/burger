@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../../hoc/Aux';
+import Auxilary  from '../../../hoc/Auxilary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
@@ -17,7 +17,7 @@ class OrderSummary extends Component {
         });
 
         return (
-            <Aux>
+            <Auxilary >
                 <h3>Your Order</h3>
                 <p>A delicious burger with the following ingredients:</p>
                 <ul>{ingredientSummary}</ul>
@@ -34,7 +34,7 @@ class OrderSummary extends Component {
                 >
                     CONTINUE
                 </Button>
-            </Aux>
+            </Auxilary >
         );
     }
 }

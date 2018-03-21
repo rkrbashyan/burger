@@ -14,7 +14,7 @@ import orderReducer from './store/reducers/order';
 import authReducer from './store/reducers/auth';
 
 // Saga
-import createSagaMiddleware from 'react-saga';
+import createSagaMiddleware from 'redux-saga';
 import { watchAuth, watchBurgerBuilder, watchOrder } from './store/sagas';
 
 const composeEnhancers =
